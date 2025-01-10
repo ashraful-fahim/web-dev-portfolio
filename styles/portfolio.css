@@ -11,6 +11,15 @@
     color: #FD6E0A;
 }
 
+.text-secondary{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .dark-02{
     color: #474747;
 }
@@ -23,6 +32,29 @@
     border-radius: 5px;
     border: none;
 }
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color:#757575;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Header Style */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat:no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* Nav Styles */
 
 nav{
@@ -72,8 +104,62 @@ nav ul a{
     font-weight: 800;
 }
 
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
-    background-repeat:no-repeat;
-    background-position: top left, bottom right;
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align:center;
+    /* margin: 130px; */
+
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item-title{
+    font-size: 15px;
+    color: #757575;
+}
+
+.item-description{
+    font-weight: bold;
+    font-size: 15px;
+    color: #474747;
+}
+
+/* skills styles */
+
+.skills>p{
+    margin: 30px 115px;
+}
+
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description{
+    line-height: 25px;
 }
